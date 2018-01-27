@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
+<!-- saved from url=(0077)http://udacity.github.io/fend/lessons/L3/problem-set/07-slack-card/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
   <title>Slacker Card</title>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+  <link href="./Slacker Card_files/css" rel="stylesheet" type="text/css">
   <meta name="udacity-grader" content="tests.json">
   <style>
     * {
@@ -73,12 +74,12 @@
       color: white;
     }
   </style>
-</head>
+<link rel="import" href="chrome-extension://melpgahbngpgnbhhccnopmlmpbmdaeoi/app/templates/feedback.html" id="udacity-test-widget"><script id="ud-grader-options">UdacityFEGradingEngine.turnOn();</script></head>
 <body>
   <section>
     <div class="card">
       <div class="top">
-        <h3 class="name">Udacity Student <span class="status"></span></h3>
+        <h3 class="name">Udacity Student<span class="status"></span></h3>
         <p class="title">Learner Extraordinaire</p>
       </div>
       <div class="middle">
@@ -98,5 +99,6 @@
       <em>Note: the buttons have class <code>profile-action</code></em>
     </p>
   </section>
-</body>
-</html>
+
+
+<script src="chrome-extension://melpgahbngpgnbhhccnopmlmpbmdaeoi/app/js/libs/GE.js" id="udacity-front-end-feedback"></script><script id="ud-31722590">UdacityFEGradingEngine.registerSuites("[{\n  \"name\": \"Slacker Card\",\n  \"code\": \"imnotslacking\",\n  \"tests\": [\n    {\n      \"description\": \"The buttons have 4px rounded borders\",\n      \"definition\": {\n        \"nodes\": \".profile-action\",\n        \"cssProperty\": \"borderRadius\",\n        \"equals\": \"4px\"\n      }\n    },\n    {\n      \"description\": \"The buttons have a hand mouse cursor\",\n      \"definition\": {\n        \"nodes\": \".profile-action\",\n        \"cssProperty\": \"cursor\",\n        \"equals\": \"pointer\"\n      }\n    },\n    {\n      \"description\": \"The font of the buttons match the rest of the page\",\n      \"definition\": {\n        \"nodes\": \".profile-action\",\n        \"cssProperty\": \"fontFamily\",\n        \"hasSubstring\": \"Open Sans\"\n      }\n    },\n    {\n      \"description\": \"The <strong>top</strong> has a profile-placeholder.svg background image\",\n      \"definition\": {\n        \"nodes\": \".top\",\n        \"cssProperty\": \"backgroundImage\",\n        \"hasSubstring\": \"profile-placeholder.svg\"\n      }\n    },\n    {\n      \"description\": \"The typo (mistake) in the card name is fixed\",\n      \"definition\": {\n        \"nodes\": \".name\",\n        \"get\": \"innerHTML\",\n        \"hasSubstring\": \"Udacity Student\"\n      }\n    }\n  ]\n}]\n");</script><test-widget></test-widget></body></html>
