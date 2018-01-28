@@ -1,48 +1,60 @@
-/* add your CSS here */
+body {
+  font-family: Arial,'times new roman', 'open sans', sans-serif;
+    color: #ffffff;
+}
 
 .card {
-  border: thin solid #37c8c0;
-  border-radius: 10px;
+  border: medium solid #gray;
+  border-radius: 5px;
   width: 300px;
   padding: 5px 10px 10px 10px;
   margin: auto;
-  background-color: #b3fefa;
+  background-color: #000000;
   box-shadow: 5px 5px 5px lightgray;
 }
+
 .name {
-  color: #010708;
-  font-family: Copperplate, "Copperplate Gothic Light";
-  line-height: 12px;
+  line-height: 6px;
 }
+
 img {
   width: 300px;
-  opacity: 0.95;
-  padding: 0px 5px 15px 5px;
+  padding: 0px 25px 8px 0px;
+  border-radius: 0px;
+  border: medium solid #gray;
 }
+
 .info {
-  border: thin lightgray solid;
-  border-radius: 10px
-  padding: 25px 25px 25px 25px;
-  color: #010708;
-  background-image: url("makeagif.com/gif/grass-blowing-in-the-wind-0-1BjV#");
+  font-size: 14px;
+  border: medium solid #gray;
+  border-radius: 0px;
+  padding: 5px 5px 5px 5px;
+  background-image: url('https://image.ibb.co/dDz4gw/test_kodiak_bear_background.png');
+  opacity: .75;
 }
+
 .fact {
+  text-align: justify;
   font-style: italic;
-  font-size: 16px;
-  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
 }
+
 .list {
+  padding-left: .5rem;
   list-style-type: none;
-  padding-left: 5  px;
-  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
-    font-size: 14px;
 }
-.list-header {
+
+.list li span {
   font-weight: bold;
-  font-family: Copperplate, "Copperplate Gothic Light";
-  font-size: 12px;
 }
-.description {
-  font-size: 16px;
-  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-}/* add your CSS here */
+
+.transbox {
+  margin: auto;
+  background-color: #lightgray;
+  /* For IE8 and earlier */
+  filter: alpha(opacity=90);
+}
+
+.transbox p {
+    text-align: justify;
+  margin: 8px;
+  }
