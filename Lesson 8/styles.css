@@ -1,0 +1,48 @@
+/* add your CSS here */
+
+.card {
+  border: thin solid #37c8c0;
+  border-radius: 10px;
+  width: 300px;
+  padding: 5px 10px 10px 10px;
+  margin: auto;
+  background-color: #b3fefa;
+  box-shadow: 5px 5px 5px lightgray;
+}
+.name {
+  color: #010708;
+  font-family: Copperplate, "Copperplate Gothic Light";
+  line-height: 12px;
+}
+img {
+  width: 300px;
+  opacity: 0.95;
+  padding: 0px 5px 15px 5px;
+}
+.info {
+  border: thin lightgray solid;
+  border-radius: 10px
+  padding: 25px 25px 25px 25px;
+  color: #010708;
+  background-image: url("makeagif.com/gif/grass-blowing-in-the-wind-0-1BjV#");
+}
+.fact {
+  font-style: italic;
+  font-size: 16px;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+.list {
+  list-style-type: none;
+  padding-left: 5  px;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-size: 14px;
+}
+.list-header {
+  font-weight: bold;
+  font-family: Copperplate, "Copperplate Gothic Light";
+  font-size: 12px;
+}
+.description {
+  font-size: 16px;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}/* add your CSS here */
