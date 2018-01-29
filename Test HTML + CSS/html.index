@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+	<meta charset="utf-8">
+	<title>Animal Trading Cards</title>
+	<link rel="stylesheet" href="CSS/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+	<link rel="stylesheet" href="Fawkes_Card.css">
+<body>
+	<div id="f1_container">
+		<div id="f1_card">
+			<div class="front face">
+				<div class="content">
+					<h3 class="card_title glower">Fawkes the Phoenix</h3>
+					<img src="http://vignette3.wikia.nocookie.net/harrypotter/images/d/dc/Tumblr_m9fdwqJ9kJ1qm5muxo4_250.gif/revision/latest?cb=20140306211502" alt="liger" width="300px" height="200">
+					<br>
+					<p id="front_quote">>&nbsp;Phoenixes burst into flame when it is time for them to die and are reborn from the ashes.&nbsp;></p>
+				</div>
+			</div>
+			<div class="back face">
+				<div class="content">
+					<ul class="stats glowerhover">
+						<li><span class="label">Breed:</span> Phoenix</li>
+						<br>
+						<li><span class="label">Appearance:</span> Red and Gold Feathers</li>
+						<br>
+						<li><span class="label">Magic Abilities:</span> Ability to burst into flame when their bodies begin to fail, then be reborn from the ashes. Can carry incredibly heavy loads, tears have healing properties</li>
+						<br>
+						<li><span class="label">Allegiance:</span> Domesticated phoenixes are loyal to their owners</li>
+					</ul>
+					<p class="backquote">"It so happens that the phoenix whose tail feather is in your wand, gave another feather – just one other. It is very curious indeed that you should be destined for this wand when its brother – why, its brother gave you that scar."&nbsp;>
+					<br><br>+Garrick Olivander+</p>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

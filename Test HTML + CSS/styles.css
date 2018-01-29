@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'lumoscaps';
+    src: url('https://joevusmc.github.io/joevusmc.github.io/Fonts/lumos-webfont.woff2') format('woff2'),
+         url('https://joevusmc.github.io/joevusmc.github.io/Fonts/lumos-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mustnotlie';
+    src: url('https://joevusmc.github.io/joevusmc.github.io/Fonts/djb_chicken_skratchez-webfont.woff2') format('woff2'),
+         url('https://joevusmc.github.io/joevusmc.github.io/Fonts/djb_chicken_skratchez-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'harry';
+    src: url('https://joevusmc.github.io/joevusmc.github.io/Fonts/harryp__-webfont.woff2') format('woff2'),
+         url('https://joevusmc.github.io/joevusmc.github.io/Fonts/harryp__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* centers body on page */
+body {
+    display: table;
+    margin: 10px auto;
+}
+
+.content {
+  margin: 15px;
+  box-shadow:
+}
+
+.card_title {
+   text-align: center;
+   -webkit-text-stroke: .2px black;
+   font-size: 65px;
+   text-shadow: 5px 8px 20px #ba0404;
+   color: #cc8701;
+   box-shadow: -2px 14px 79px 15px rgba(0,0,0,0.75);
+   border-radius: 100px;
+   font-family: 'harry';
+   border: ridge 5px;
+   border-color: #fff;
+   width: 280px;
+   padding: 15px;
+   margin: 10px 0;
+   margin-bottom: 20px;
+}
+
+.card_title:hover {
+  background: rgba(153, 0, 0, 0.4);
+}
+
+img {
+  border-style: ridge;
+  border-width: 8px;
+  border-color: #cd9c22;
+  border-radius: 10px;
+  background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=852202ff&noise=050305&density=37&opacity=50);
+  box-shadow: -2px 14px 79px 15px rgba(0,0,0,0.75);
+  margin-top: 8px
+}
+
+p {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'lumoscaps';
+  text-shadow: 6px 6px 4px #000;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 25px;
+  line-height: 1;
+}
+
+.stats {
+ padding: 30px 20px 35px 25px;
+ margin-bottom: 0px;
+ border-style: ridge;
+ border-width: 6px;
+ border-color: #cd9c22;
+ width: 230px;
+ height: 230px;
+ word-break: break-word;
+ font-family: 'mustnotlie';
+ color: #fff;
+ background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=852202ff&noise=050305&density=37&opacity=50);
+ border-radius: 80px;
+ text-align: left;
+ box-shadow: -2px 14px 79px 15px rgba(0,0,0,0.75);
+ text-shadow: 6px 6px 4px #000;
+ font-size: 12px;
+ list-style-type: none;
+}
+
+/* Glowing Border */
+.glower {
+    -webkit-animation: glow 3s infinite alternate;
+     -webkit-transition: border 1.0s linear, box-shadow 1.0s linear;
+       -moz-transition: border 1.0s linear, box-shadow 1.0s linear;
+            transition: border 1.0s linear, box-shadow 1.0s linear;
+}
+
+/* Glowing Border for stats w/ transparent background fill/change */
+.stats.glowerhover:hover {
+    -webkit-animation: glow 2.0s infinite alternate;
+     -webkit-transition: border 1.0s linear, box-shadow 1.0s linear;
+       -moz-transition: border 1.0s linear, box-shadow 1.0s linear;
+            transition: border 1.0s linear, box-shadow 1.0s linear;
+    background: rgba(153, 0, 0, .8);
+}
+
+/* CSS for flipping */
+#f1_container {
+  position: relative;
+  margin: 10px auto;
+  width: 345px;
+  height: 544px;
+  z-index: 1;
+}
+
+#f1_container {
+  perspective: 800px;
+}
+
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.2s ease-in;
+  width: 345px;
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  display: table-cell;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+
+.face {
+  position: absolute; /* pulls the .back element up to take the place of where .front was */
+  width: 345px;
+  height: 544px;
+  backface-visibility: hidden;
+  float: left;
+  background-image: url(https://img00.deviantart.net/2587/i/2015/254/0/3/harry_potter_wallpaper__gryffindor_stripes_by_theladyavatar-d5z2f66.jpg);
+/* This adds a white border around the card, uncommenting the second line in each decalration will create a white border. to make it look good you will need to change to this 0px 0px 0px 2px rgba(0,0,0,0.6), 0px 0px 0px 14px #fff, 0px 0px 0px 18px rgba(0,0,0,0.2), 6px 6px 8px 17px #555;  */
+
+  -webkit-box-shadow:
+	2px 0px 0px 2px rgba(0,0,0,0.6),
+/* 	0px 0px 0px 14px #fff, */
+	2px 3px 10px 6px rgba(0,0,0,0.2),
+	3px 0px 4px 5px #555;
+
+	-moz-box-shadow:
+	2px 0px 0px 2px rgba(0,0,0,0.6),
+/* 	0px 0px 0px 14px #fff, */
+	2px 3px 10px 6px rgba(0,0,0,0.2),
+	3px 0px 4px 5px #555;
+
+	box-shadow:
+	2px 0px 0px 2px rgba(0,0,0,0.6),
+/* 	0px 0px 0px 14px #fff, */
+	2px 3px 10px 6px rgba(0,0,0,0.2),
+	3px 0px 4px 5px #555;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: Black;
+  text-align: center;
+  /* background-color: #Black; this isn't necessary because of the background applied to .face */
+}
+
+.backquote {
+  font-size: 1.1em;
+}
+
+span {
+  font-family: 'lumoscaps';
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #cc8701;
+}
+
+li {
+  text-align: left;
+  padding: 0px;
+  font-size: 10px;
+
+}
+
+.Label {
+  font-size: 15px;
+}
+
+@-webkit-keyframes glow {
+    to {
+         border-color: #ffc703;
+    -webkit-box-shadow: 0 0 5px #ffc703;
+       -moz-box-shadow: 0 0 5px #ffc703;
+            box-shadow: 0 0 5px #ffc703;
+    }
+}
+
+/* color pallete:
+Gryffindor: 690001 deep red
+            690001 brighter red
+            ecb12b brighter yellow
+            cd9c22 mustard yellow
+            000000 Black
+ */
