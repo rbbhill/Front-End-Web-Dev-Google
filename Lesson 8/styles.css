@@ -1,60 +1,54 @@
 body {
-  font-family: Arial,'times new roman', 'open sans', sans-serif;
-    color: #ffffff;
+  font-family: Arial, 'times new roman', 'open sans', sans-serif;
+  color: #ffffff;
 }
-
-.card {
-  border: medium solid #gray;
-  border-radius: 5px;
-  width: 300px;
-  padding: 5px 10px 10px 10px;
+#card {
   margin: auto;
+  width: 300px;
+  border-radius: 8px;
+  border: gray;
+  padding: 5px 15px 8px 10px;
   background-color: #000000;
-  box-shadow: 5px 5px 5px lightgray;
+  box-shadow: 4px 4px 4px 4px gray;
 }
-
 .name {
   line-height: 6px;
 }
-
 img {
   width: 300px;
-  padding: 0px 25px 8px 0px;
-  border-radius: 0px;
-  border: medium solid #gray;
+  border-radius: 5px;
+  border: medium solid white;
+  margin-bottom: .50em;
 }
-
 .info {
+  width: 300px;
   font-size: 14px;
-  border: medium solid #gray;
-  border-radius: 0px;
-  padding: 5px 5px 5px 5px;
+  text-align: justify;
+  border-radius: 5px;
+  border: solid white;
+  margin: 0 0 .75em 0em;
   background-image: url('https://image.ibb.co/dDz4gw/test_kodiak_bear_background.png');
-  opacity: .75;
+  opacity: .80;
+}
+.transbox {
+  margin: 7px;
+}
+.transbox p {
 }
 
 .fact {
-  text-align: justify;
   font-style: italic;
 }
-
+.fact span {
+  font-weight: bold;
+}
 .list {
-  padding-left: .5rem;
+  padding-left: 0rem;
   list-style-type: none;
 }
-
 .list li span {
   font-weight: bold;
 }
-
-.transbox {
-  margin: auto;
-  background-color: #lightgray;
-  /* For IE8 and earlier */
-  filter: alpha(opacity=90);
+.description {
 }
-
-.transbox p {
-    text-align: justify;
-  margin: 8px;
-  }
+/* end */
