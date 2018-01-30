@@ -2,7 +2,7 @@ body {
   font-family: Arial, 'times new roman', 'open sans', sans-serif;
   color: #ffffff;
 }
-#card {
+.card {
   margin: auto;
   width: 300px;
   border-radius: 8px;
