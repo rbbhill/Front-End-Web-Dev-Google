@@ -6,9 +6,12 @@ function makeLine(length) {
     return line + "\n";
 
 }
-
 // your code goes here.  Make sure you call makeLine() in your own code.
-
-
-// test your code by uncommenting the following line
-//
+function buildTriangle(x) {
+  var width = '';
+  for (var triangle = 1; triangle <= x; triangle++) {
+    width += makeLine(triangle);
+  }
+    return width;
+}
+//console.log(buildTriangle(10));
