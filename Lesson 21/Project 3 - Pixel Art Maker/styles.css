@@ -1,7 +1,7 @@
 body {
   text-align: center;
   font-family: arial;
-  color: #fff;
+  color: #f90;
   background-image: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-12860.jpg);
 }
 
@@ -19,34 +19,30 @@ h2:first-of-type {
   margin-top: 1.45em;
 }
 
-table,
-tr,
-td {
-  border: 1px solid black;
-  background-color: white;
-}
-
 table {
   border-collapse: collapse;
   margin: 0 auto;
 }
 
-strong {
-  font-weight: bold;
+td {
+  border: 1px solid gray;
+  background-color: white;
+  width: 25px;
 }
 
 tr {
-  height: 20px;
-}
-
-td {
-  width: 20px;
+  height: 25px;
 }
 
 input[type="number"] {
-  width: 6em;
+  width: 4em;
 }
 
-.tutorial {
-  margin-top: 50px;
+p {
+  color: #fff;
+}
+
+p span {
+  margin-top: 40px;
+  font-weight: bold;
 }
