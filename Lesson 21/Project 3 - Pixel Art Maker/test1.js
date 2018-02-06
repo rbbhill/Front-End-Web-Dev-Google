@@ -3,24 +3,19 @@ $(function() {
   // Select size input
   // When size is submitted by the user, call makeGrid()
 
-  const submitButton = $('input[type="submit"]'),
+  const submitBtn = $('input[type="submit"]'),
     canvas = $('#pixel_canvas');
-
-  submitButton.click(function(e) {
-      e.preventDefault();
-      makeGrid();
-
 
   function makeGrid() {
     let col = $("#input_height").val(),
       row = $("#input_width").val(),
-      canvasColumn,
+      canvasCol,
       canvasRow;
 
     canvas.children().remove();
 
     for (let i = 0; i < col; i++) {
-      canvasColumn += "<tr></tr>";
+      canvasCol += "<tr></tr>";
     }
 
     for (let j = 0; j < row; j++) {
@@ -28,12 +23,14 @@ $(function() {
     }
 
     canvas
-      .append(canvasColumn)
+      .append(canvasCol)
       .children()
       .append(canvasRow);
   }
 
-
+  submitBtn.click(function(e) {
+    e.preventDefault();
+    makeGrid();
   });
 
   canvas.on("click", "td", function(e) {
