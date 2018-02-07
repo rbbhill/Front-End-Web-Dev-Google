@@ -9,4 +9,10 @@ You've learned a lot about web development so far. I want you to take a moment t
 
 Your response goes here!
 
-  * What new skills have you learned?
+  * What new skills have you learned? HTML, CSS, developer tools.
+
+  * What has been easy? HTML
+
+  * What has been difficult? CSS in the beginning, but I worked through that and have more confidence. But right now JavaScript/jQuery, one moment I follow all the logic and next I am lost. It is harder to learn as I pick up more from debugging, but I have more difficulty with debugging.
+
+  * How have you used the problem solving strategies from the first project to overcome challenges so far? Definitely research, I am very strong in this regard, but I feel like it slows down progress. 
